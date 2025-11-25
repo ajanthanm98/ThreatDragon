@@ -2940,7 +2940,7 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": []
@@ -2959,11 +2959,7 @@
             },
             "vertices": [
               {
-                "x": 530,
-                "y": 220
-              },
-              {
-                "x": 450,
+                "x": 500,
                 "y": 220
               }
             ]
@@ -3168,16 +3164,6 @@
             "target": {
               "cell": "db432759-f586-47cd-abf1-f8cab19e2a4d",
               "port": "2aed0ee5-f6f1-4dec-9302-e3943cbfa842"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
           },
           {
@@ -3574,7 +3560,7 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": []
@@ -3594,7 +3580,7 @@
             "vertices": [
               {
                 "x": 280,
-                "y": 200
+                "y": 180
               }
             ]
           },
