@@ -2035,7 +2035,7 @@
             "id": "94f68ce7-aa88-45a4-ba41-c0b62d6a959c",
             "data": {
               "name": "2-Faktor-Authe\nntifizierungsdi\nenst",
-              "description": "",
+              "description": "Standard Software für Kryptogfrafie",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2618,8 +2618,8 @@
                 "y": 320
               },
               {
-                "x": 623,
-                "y": 156
+                "x": 710,
+                "y": 120
               },
               {
                 "x": 638,
@@ -3168,6 +3168,16 @@
             "target": {
               "cell": "db432759-f586-47cd-abf1-f8cab19e2a4d",
               "port": "2aed0ee5-f6f1-4dec-9302-e3943cbfa842"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           },
           {
@@ -3525,7 +3535,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Allsecure\nMobile Phone \nOTT Service",
-              "description": "Versandt von OTT",
+              "description": "Versandt von OTT\nStandard Software für Kryptogfrafie",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3609,6 +3619,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -3692,7 +3703,6 @@
               ]
             },
             "id": "619b732b-7bb1-4548-9a1d-c331153165d6",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "Siem",
@@ -3710,8 +3720,8 @@
           },
           {
             "position": {
-              "x": 810,
-              "y": 400
+              "x": 820,
+              "y": 430
             },
             "size": {
               "width": 120,
@@ -3732,6 +3742,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -3815,7 +3826,6 @@
               ]
             },
             "id": "db432759-f586-47cd-abf1-f8cab19e2a4d",
-            "zIndex": 17,
             "data": {
               "type": "tm.Store",
               "name": "SIEM DB",
@@ -3853,6 +3863,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -3936,7 +3947,6 @@
               ]
             },
             "id": "35d2c15d-70ce-4c17-9e42-cc9801fe06e4",
-            "zIndex": 18,
             "data": {
               "type": "tm.Actor",
               "name": "Management",
